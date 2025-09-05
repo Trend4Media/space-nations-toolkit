@@ -16,7 +16,7 @@ const Navigation = () => {
     <div className="w-80 p-6 space-y-4">
       <GamingCard variant="cyber" className="p-6">
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-2 h-2 bg-primary rounded-full animate-pulse-glow" />
+          <div className="w-2 h-2 bg-purple rounded-full animate-pulse-glow" />
           <h2 className="font-orbitron text-lg font-bold text-glow">Counter Tools</h2>
         </div>
         
@@ -45,7 +45,7 @@ const Navigation = () => {
         </div>
         
         <div className="space-y-3">
-          <GamingButton variant="orange" className="w-full">
+          <GamingButton variant="cosmic" className="w-full">
             <Shield className="h-4 w-4" />
             Admin Login
           </GamingButton>

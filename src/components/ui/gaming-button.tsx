@@ -17,6 +17,8 @@ const gamingButtonVariants = cva(
         cyber: "bg-gradient-cyber text-white shadow-glow hover:shadow-cyber border border-primary/50 animate-pulse-glow",
         accent: "bg-gradient-accent text-accent-foreground shadow-accent-glow hover:shadow-cyber border border-accent/30",
         orange: "bg-gradient-to-r from-orange-500 to-orange-600 text-white hover:from-orange-600 hover:to-orange-700 shadow-lg hover:shadow-orange-500/25 font-bold",
+        purple: "bg-gradient-purple text-purple-foreground shadow-purple-glow hover:shadow-purple-glow border border-purple/30 font-bold",
+        cosmic: "bg-gradient-cosmic text-white shadow-purple-glow hover:shadow-glow border border-purple/50 animate-pulse-glow",
         glass: "glass-card text-foreground hover:bg-card/90 border border-border/50"
       },
       size: {

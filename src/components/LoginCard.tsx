@@ -18,8 +18,8 @@ const LoginCard = () => {
       <GamingCard variant="cyber" className="animate-fade-in">
         <GamingCardHeader>
           <div className="flex items-center gap-3 mb-2">
-            <div className="w-2 h-2 bg-primary rounded-full animate-pulse-glow" />
-            <GamingCardTitle className="text-primary">Benutzer Login</GamingCardTitle>
+            <div className="w-2 h-2 bg-purple rounded-full animate-pulse-glow" />
+            <GamingCardTitle className="text-purple">Benutzer Login</GamingCardTitle>
           </div>
           <p className="text-sm text-muted-foreground font-rajdhani">
             Zugang zu erweiterten Gaming-Tools
