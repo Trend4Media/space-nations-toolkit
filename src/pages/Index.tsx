@@ -32,17 +32,28 @@ const Index = () => {
       <header className="relative z-10 p-6 border-b border-border/30">
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-4">
-            <div className="w-3 h-3 bg-primary rounded-full animate-pulse-glow" />
-            <h1 className="font-orbitron text-3xl font-bold text-glow bg-gradient-cyber bg-clip-text text-transparent">
-              SPACENATIONS
-            </h1>
-            <span className="font-rajdhani text-muted-foreground">Info-Tool Collection</span>
+            <img 
+              src="/src/assets/spacenations-logo.png" 
+              alt="Spacenations Logo" 
+              className="h-10 animate-float"
+            />
+            <div className="flex flex-col">
+              <h1 className="font-orbitron text-2xl font-bold text-glow">
+                TOOLS
+              </h1>
+              <span className="font-rajdhani text-xs text-muted-foreground">Info-Tool Collection</span>
+            </div>
           </div>
           
-          <GamingButton variant="outline" className="animate-float">
-            <Crown className="h-4 w-4" />
-            Light Mode
-          </GamingButton>
+          <div className="flex items-center gap-3">
+            <GamingButton variant="orange" className="animate-float">
+              Jetzt Spielen
+            </GamingButton>
+            <GamingButton variant="outline" className="animate-float">
+              <Crown className="h-4 w-4" />
+              Light Mode
+            </GamingButton>
+          </div>
         </div>
       </header>
 
@@ -60,11 +71,18 @@ const Index = () => {
             
             {/* Welcome Section */}
             <GamingCard variant="glass" className="p-8 text-center">
-              <h2 className="font-orbitron text-4xl font-bold mb-4 text-glow bg-gradient-cyber bg-clip-text text-transparent">
-                Willkommen bei den Spacenations Tools
+              <div className="flex justify-center mb-6">
+                <img 
+                  src="/src/assets/spacenations-logo.png" 
+                  alt="Spacenations Logo" 
+                  className="h-24 animate-float"
+                />
+              </div>
+              <h2 className="font-orbitron text-4xl font-bold mb-4 text-glow">
+                SPACENATIONS TOOLS
               </h2>
-              <p className="text-lg text-muted-foreground mb-6 font-rajdhani">
-                Professionelle Gaming-Tools für erweiterte Spacenations-Aktivitäten
+              <p className="text-xl text-muted-foreground mb-6 font-rajdhani">
+                Erobere die Sterne, beherrsche das Universum!
               </p>
               
               <div className="inline-block p-6 glass-card border border-accent/30 rounded-lg mb-6">
@@ -77,7 +95,7 @@ const Index = () => {
                 <p className="text-foreground mb-4 font-rajdhani">
                   Registrieren Sie Ihre Allianz als Administrator und erhalten Sie Zugang zu erweiterten Analyse-Tools und Statistiken.
                 </p>
-                <GamingButton variant="accent" className="animate-pulse-glow">
+                <GamingButton variant="orange" className="animate-pulse-glow">
                   <Users className="h-4 w-4" />
                   Allianz Anmelden
                 </GamingButton>

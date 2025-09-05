@@ -45,7 +45,7 @@ const Navigation = () => {
         </div>
         
         <div className="space-y-3">
-          <GamingButton variant="accent" className="w-full">
+          <GamingButton variant="orange" className="w-full">
             <Shield className="h-4 w-4" />
             Admin Login
           </GamingButton>

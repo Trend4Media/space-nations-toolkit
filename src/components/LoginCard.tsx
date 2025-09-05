@@ -65,7 +65,7 @@ const LoginCard = () => {
           
           <div className="flex flex-col gap-3">
             <GamingButton 
-              variant="cyber" 
+              variant="orange" 
               className="w-full"
               onClick={handleLogin}
             >
