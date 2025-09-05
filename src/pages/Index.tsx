@@ -117,8 +117,8 @@ const Index = () => {
                   style={{ animationDelay: `${index * 0.1}s` }}
                 >
                   <div className="flex justify-center mb-4">
-                    <div className="p-3 rounded-full bg-purple/10 border border-purple/30">
-                      <feature.icon className="h-6 w-6 text-purple animate-pulse-glow" />
+                    <div className="p-3 rounded-full bg-primary/10 border border-primary/30">
+                      <feature.icon className="h-6 w-6 text-primary animate-pulse-glow" />
                     </div>
                   </div>
                   <h3 className="font-orbitron font-bold mb-2 text-glow">{feature.title}</h3>
@@ -157,11 +157,11 @@ const Index = () => {
         <div className="max-w-7xl mx-auto p-6">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 text-sm">
             <div>
-              <h4 className="font-orbitron font-bold text-purple mb-2">Rechtliches</h4>
+              <h4 className="font-orbitron font-bold text-primary mb-2">Rechtliches</h4>
               <div className="space-y-1 font-rajdhani">
-                <div className="text-muted-foreground hover:text-purple cursor-pointer">Impressum</div>
-                <div className="text-muted-foreground hover:text-purple cursor-pointer">Datenschutzerklärung</div>
-                <div className="text-muted-foreground hover:text-purple cursor-pointer">AGB & Nutzungsbedingungen</div>
+                <div className="text-muted-foreground hover:text-primary cursor-pointer">Impressum</div>
+                <div className="text-muted-foreground hover:text-primary cursor-pointer">Datenschutzerklärung</div>
+                <div className="text-muted-foreground hover:text-primary cursor-pointer">AGB & Nutzungsbedingungen</div>
               </div>
             </div>
             
@@ -175,13 +175,13 @@ const Index = () => {
             </div>
             
             <div>
-              <h4 className="font-orbitron font-bold text-purple mb-2">Administration</h4>
+              <h4 className="font-orbitron font-bold text-primary mb-2">Administration</h4>
               <div className="space-y-1 font-rajdhani">
-                <GamingButton variant="purple" className="p-0 h-auto text-xs">
+                <GamingButton variant="link" className="p-0 h-auto text-xs">
                   Admin-Login
                 </GamingButton>
-                <div className="text-muted-foreground hover:text-purple cursor-pointer">Hilfe & FAQ</div>
-                <div className="text-muted-foreground hover:text-purple cursor-pointer">Changelog</div>
+                <div className="text-muted-foreground hover:text-primary cursor-pointer">Hilfe & FAQ</div>
+                <div className="text-muted-foreground hover:text-primary cursor-pointer">Changelog</div>
               </div>
             </div>
           </div>

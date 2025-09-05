@@ -50,11 +50,6 @@ export default {
 					foreground: 'hsl(var(--accent-foreground))',
 					glow: 'hsl(var(--accent-glow))'
 				},
-				purple: {
-					DEFAULT: 'hsl(var(--purple))',
-					foreground: 'hsl(var(--purple-foreground))',
-					glow: 'hsl(var(--purple-glow))'
-				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
 					foreground: 'hsl(var(--popover-foreground))'
@@ -69,14 +64,11 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-accent': 'var(--gradient-accent)',
 				'gradient-cyber': 'var(--gradient-cyber)',
-				'gradient-purple': 'var(--gradient-purple)',
-				'gradient-cosmic': 'var(--gradient-cosmic)',
 				'gradient-background': 'var(--gradient-background)',
 			},
 			boxShadow: {
 				'glow': 'var(--shadow-glow)',
 				'accent-glow': 'var(--shadow-accent-glow)',
-				'purple-glow': 'var(--shadow-purple-glow)',
 				'cyber': 'var(--shadow-cyber)',
 			},
 			borderRadius: {
